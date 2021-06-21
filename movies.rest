@@ -1,0 +1,60 @@
+POST http://localhost:3001/api/movies
+# POST http://localhost:3001/api/series
+Content-Type: application/json
+
+  {
+    "title": "Movie Title (latest) 2",
+    "type": "moive",
+    "genres": ["Action", "Drama"], 
+    "year": 2021, 
+    "image": "image url",
+    "source": [
+      {
+        "type": "youtube",
+        "url": "movie source url"
+      }
+    ] ,
+    "desc": "This is the movie description"
+    }
+
+  # for series
+  # {
+  #   "title": "Movie Title",
+  #   "type": "moive",
+  #   "genres": ["Action", "Drama"], 
+  #   "year": 2021, 
+  #   "image": "image url",
+  #   "source": [
+  #     {
+  #       "title": "Winda Vision(2021)",
+  #       "source": [
+  #         {
+  #           "id": 1,
+  #           "type": "youtube",
+  #           "url": "this is movie source url"
+  #         },
+  #         {
+  #           "id": 2,
+  #           "type": "youtube",
+  #           "url": "this is movie source url"
+  #         }
+  #       ]
+  #     },
+  #     {
+  #       "title": "Winda Vision(2022)",
+  #       "source": [
+  #         {
+  #           "id": 1,
+  #           "type": "youtube",
+  #           "url": "this is movie source url"
+  #         },
+  #         {
+  #           "id": 2,
+  #           "type": "youtube",
+  #           "url": "this is movie source url"
+  #         }
+  #       ]
+  #     }
+  #   ],
+  #   "desc": "This is the movie description"
+  #   }
